@@ -30,5 +30,5 @@ h2 {
   background-color: #9dc139;
   text-align: center;
   width: 90%;
-  scroll-margin-top: 1rem; /*para que el scroll pare justo en el lugar correcto*/
+  scroll-margin-top: 6.5rem; /*para que el scroll pare justo en el lugar correcto*/
 }
