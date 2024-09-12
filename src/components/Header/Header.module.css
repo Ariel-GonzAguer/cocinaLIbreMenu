@@ -1,0 +1,54 @@
+.logoContainer {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  border-radius: 50%;
+  border: 5px solid #9dc139;
+  width: 200px;
+  height: 200px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  transition: transform 0.3s ease;
+  background-color: black;
+  border-bottom: 2px solid #9dc139;
+  border-width: 90%;
+}
+
+.hide {
+  transform: translateY(-100%);
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  margin: 5px 10px;
+  font-size: 1.5rem;
+  border: 2px solid transparent; /*para que no haga el salto al hacer hover*/
+  padding: 4px;
+
+  &:hover {
+    border: 2px solid #9dc139;
+    border-radius: 10px;
+    padding: 4px;
+  }
+
+  & a:link,
+  a:visited,
+  a:active {
+    color: #9dc139;
+    text-decoration: none;
+  }
+}
