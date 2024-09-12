@@ -1,17 +1,16 @@
+@font-face {
+  font-family: "Cream-Wish";
+  src: local("Cream-Wish"), url(/cream_wish/Cream-Wish.ttf) format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Cream-Wish', Arial, Helvetica, sans-serif;
+  font-family: "Cream-Wish", Arial, Helvetica, sans-serif;
   color: #9dc139;
 }
 
 body {
   scroll-behavior: smooth;
-}
-
-@font-face {
-  font-family: "Cream-Wish";
-  src: local("Cream-Wish"),
-    url(/public/cream_Wish/Cream-Wish.ttf) format("truetype");
 }
