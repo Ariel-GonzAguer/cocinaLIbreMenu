@@ -300,7 +300,7 @@ export default function SeccionesComidas() {
           SANDWICH DE WAFLE CON HELADO ---{">"} ¢3200 <br />
           <span>
             2 SANDWICH DE WAFLE CON GALLETA Y HELADO ANAKI CON MIEL DE MAPLE Y
-            CHCCOLATE
+            CHOCOLATE
           </span>
         </p>
       </div>
